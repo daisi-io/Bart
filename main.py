@@ -6,7 +6,7 @@ model_path = "model"
 # model_path = unzip_model(model_zip_path)
 classifier = load_model(model_path)
 
-def compute(text, candidate_labels, is_multi_labels="false"):
+def compute(text="", candidate_labels="", is_multi_labels="false"):
     res = predict_labels(text, candidate_labels, classifier, is_multi_labels)
     
     return {"result": res}
