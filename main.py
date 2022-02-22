@@ -2,7 +2,7 @@ from predict import unzip_model, load_model, predict_labels
 
 # get model_zip_path
 # model_zip_path = "/Users/zhenshanjin/Documents/Belmont/sandy/UtilityDaisies/BartLargeMultiNLI/tmp/bart-large-mnli.zip"
-model_path = "/pebble_source/88fc1fd1-8729-43b9-aa71-34108fd3f3f8/model"
+model_path = "/model"
 # model_path = unzip_model(model_zip_path)
 classifier = load_model(model_path)
 
