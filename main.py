@@ -1,7 +1,6 @@
 from predict import unzip_model, load_model, predict_labels
 
 # get model_zip_path
-# model_zip_path = "/Users/zhenshanjin/Documents/Belmont/sandy/UtilityDaisies/BartLargeMultiNLI/tmp/bart-large-mnli.zip"
 model_path = "/pebble_tmp/tmp/model_bart"
 # model_path = unzip_model(model_zip_path)
 classifier = load_model(model_path)
