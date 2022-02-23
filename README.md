@@ -7,3 +7,5 @@ download model
 ```
 git lfs clone https://huggingface.co/facebook/bart-large-mnli
 ```
+
+main code: https://huggingface.co/facebook/bart-large-mnli
